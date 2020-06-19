@@ -12,5 +12,6 @@ skip_cleanup: true
 github_token: $GITHUB_TOKEN
 target-branch: gh-pages
 local_dir: dist
+edge: true
 on:
   branch: master
